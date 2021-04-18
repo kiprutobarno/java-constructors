@@ -32,11 +32,14 @@ public class Rectangle{
 
     public static void main(String[] args) {
         Rectangle myRectangle=new Rectangle();
+
+        /**Demonstrate parametized constructor */
         Rectangle myRectangleOne=new Rectangle(8,10);
+        
         System.out.println("Area: "+myRectangle.area());
         System.out.println("Perimeter: "+myRectangle.perimeter());
 
-        /**Demonstrate parametized constructor */
+    
         System.out.println("Area One: "+myRectangleOne.area());
         System.out.println("Perimeter One: "+myRectangleOne.perimeter());
     }
